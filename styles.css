@@ -1,0 +1,91 @@
+
+h1 {
+  text-align: center;
+  margin-bottom: -250px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+#categories {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-direction: row;
+  margin-left: -60px;
+  background-color: rgb(217, 252, 240);
+}
+
+#categories button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #a2c1d6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+}
+
+#categories button:hover {
+  background-color: #0a0a0a;
+}
+
+#products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.product-card {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+
+.product-image {
+  border-radius: 5px;
+  margin-bottom: 1px;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.product-title {
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.vendor-name,
+.price,
+.compare-at-price {
+    font-size: 16px;
+    color: #333; 
+    margin-left: 1px; 
+   padding: 0%;
+  
+}
+
+.product-badge {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 5px;
+  
+}
+
+.product-info {
+  text-align: center;
+  
+}
+
+.compare-at-price {
+  text-decoration: line-through;
+  color: #e20b0b;
+}

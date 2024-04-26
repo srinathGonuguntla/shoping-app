@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <h1><bold>SELECT YOUR CHOICE</bold></h1>
+    <div id="categories">
+      <div class="product-card"></div>
+      <img class="product-image">
+      <div class="product-info">    
+        <h2 class="product-title"></h2>
+        <p class="vendor-name"></p>
+        <p class="price"></p>
+        <p class="compare-at-price" class="discount"></p>
+        <span class="product-badge"></span>
+      <button onclick="showProducts('Men')">Men       </button>
+      <button onclick="showProducts('Women')">Women</button>
+      <button onclick="showProducts('Kids')">Kids</button>
+      
+    
+  </div>
+  
+  <div id="products-container"></div>
+  
+
+</body>
+</html>
